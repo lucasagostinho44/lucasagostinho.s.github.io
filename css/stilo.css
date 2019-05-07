@@ -1,0 +1,123 @@
+* {
+    box-sizing: border-box;
+}
+/* Cabeçalho/ logo Titulo */
+.header {
+    padding: 80px;
+    text-align: center;
+    /*background: #1abc9c;*/
+    background: url('../imagens/fundo.jpg') no-repeat;
+    background-position: center center;
+    background-size: 100% 100%;
+    color: black;
+}
+
+/* Aumenta o tamanho da fonte do cabeçalho */
+.header h1 {
+    font-size: 40px;
+}
+
+/* Estilo na barra de navegação superior */
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+}
+
+/* Estilo os links da barra de navegação */
+.navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+/* Link alinhado à direita*/
+.navbar a.right {
+    float: right;
+}
+
+/* Altera cor em hover */
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Recipiente da coluna */
+.row {  
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+}
+
+/* Crie duas colunas desiguais que ficam próximas umas das outras */
+/* Barra lateral / coluna esquerda */
+.side {
+    -ms-flex: 30%; /* IE10 */
+    flex: 30%;
+    background-color: #f1f1f1;
+    padding: 20px;
+}
+
+/* Coluna principal */
+.main {   
+    -ms-flex: 70%; /* IE10 */
+    flex: 70%;
+    background-color: white;
+    padding: 20px;
+}
+
+/* Imagem flas, apenas para este exemplo */
+.fakeimg {
+    background-color: #aaa;
+    text-align: center;
+    width: 100%;
+    padding: 15px;
+}
+
+.fakeimg1 {
+    background-color: #aaa;
+    text-align: center;
+    width: 100%;
+}
+
+.fakeimg2 {
+    background-color: #aaa;
+    text-align: center;
+    width: 100%;
+    padding: 15px;
+}
+/*subbanner
+.subbanner img{
+    max-width:200px;
+    max-height:150px;
+    width: auto;
+    height: auto;
+}*/
+
+ /* Rodapé */
+.footer {
+    padding: 20px;
+    text-align: center;
+    font-size: 12px;
+    background: #ddd;
+}
+
+/* Layout responsivo - quando a tela tiver menos de 700px de lagura, coloque as duas colunas empilhadas uma em cima da outra
+    em vez de ficarem próximas umas das outras */
+@media screen and (max-width: 700px) {
+    .row {   
+    flex-direction: column;
+    }
+}
+
+/* Layout responsivo - quando a tela tiver menos de 400px de lagura, faça os link de navegação ficarem empilhados um em cima do outro, em vez
+de ficarem próximos uns dos outros  */
+@media screen and (max-width: 400px) {
+    .navbar a {
+    float: none;
+    width: 100%;
+    }
+}
