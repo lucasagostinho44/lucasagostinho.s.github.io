@@ -6,10 +6,10 @@
     padding: 80px;
     text-align: center;
     /*background: #1abc9c;*/
-    background: url('../imagens/fundo.jpg') no-repeat;
+    background: url('../imagens/linha_de_codigo.jpeg') no-repeat;
     background-position: center center;
     background-size: 100% 100%;
-    color: black;
+    color: white;
 }
 
 /* Aumenta o tamanho da fonte do cabeçalho */
@@ -33,11 +33,11 @@
     text-decoration: none;
 }
 
-/* Link alinhado à direita*/
+/* Link alinhado à direita
 .navbar a.right {
     float: right;
 }
-
+*/
 /* Altera cor em hover */
 .navbar a:hover {
     background-color:rgb(124, 185, 238);
@@ -71,20 +71,20 @@
 
 /* Imagem flas, apenas para este exemplo */
 .fakeimg {
-    background-color: #ffffff;
+    background-color: #ffffffab;
     text-align: center;
     width: 100%;
     padding: 15px;
 }
 
 .fakeimg1 {
-    background-color: #ffffff;
+    background-color: #ffffffab;
     text-align: center;
     width: 100%;
 }
 
 .fakeimg2 {
-    background-color: #ffffff;
+    background-color: #ffffffab;
     text-align: center;
     width: 100%;
     padding: 15px;
@@ -102,7 +102,8 @@
     padding: 20px;
     text-align: center;
     font-size: 12px;
-    background: #ddd;
+    background: rgba(20, 20, 20, 0.705);
+    color: #ffffff;
 }
 
 /* Layout responsivo - quando a tela tiver menos de 700px de lagura, coloque as duas colunas empilhadas uma em cima da outra
