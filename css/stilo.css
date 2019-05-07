@@ -65,26 +65,26 @@
 .main {   
     -ms-flex: 70%; /* IE10 */
     flex: 70%;
-    background-color: white;
+    background-color:white;
     padding: 20px;
 }
 
 /* Imagem flas, apenas para este exemplo */
 .fakeimg {
-    background-color: #aaa;
+    background-color: rgb(255, 255, 255);
     text-align: center;
     width: 100%;
     padding: 15px;
 }
 
 .fakeimg1 {
-    background-color: #aaa;
+    background-color: #f1f1f1;
     text-align: center;
     width: 100%;
 }
 
 .fakeimg2 {
-    background-color: #aaa;
+    background-color: #f1f1f1;
     text-align: center;
     width: 100%;
     padding: 15px;
@@ -101,7 +101,7 @@
 .footer {
     padding: 20px;
     text-align: center;
-    font-size: 12px;
+    font-size: px;
     background: #ddd;
 }
 
