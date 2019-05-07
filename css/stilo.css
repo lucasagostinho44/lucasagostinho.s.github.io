@@ -82,6 +82,7 @@
     background-color: #ffffffab;
     text-align: center;
     width: 100%;
+    border-radius: 20px;
 }
 
 .fakeimg2 {
@@ -89,14 +90,20 @@
     text-align: center;
     width: 100%;
     padding: 15px;
+    border-radius: 20px;
 }
-/*subbanner
-.subbanner img{
-    max-width:200px;
-    max-height:150px;
-    width: auto;
-    height: auto;
-}*/
+/*subbanner*/
+.subbanner{
+    border-radius: 20px;
+}
+/*texto*/
+h1, h2, h5{
+    font-family: 'Roboto Slab', serif;
+}
+
+p{
+    font-family: 'Roboto', sans-serif;  
+}
 
  /* Rodapé */
 .footer {
